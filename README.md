@@ -1,8 +1,12 @@
 # VBA-challenge
 Our code is fairly straight forward, I first start by making sure the code runs through all worksheets.
+
 I then declare our variables with their best respective data type
+
 Next I create our headers as shown in the example given, for columns I1:Q1 and O2:O4
+
 I set the start of our TickerCount variable and j variable from row 2
+
 I select a range for i, we briefly went over a LastRow variable example in class, however, when trying to add it to my script I couldnt get it to run properly.
 So I decided to go with a simple range, in this case from row 2 to 800,000 which covers every single data point in all sheets
 Next I used a formula that would loop through rows UNTIL column A(Ticker) does not equal the following rows ticker
